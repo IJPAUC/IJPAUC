@@ -8,13 +8,6 @@
 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --textcolor: #dadada;
-    --bgcolor: #141414;
-    --highlight: #ffc400;
-  }
-}
 
 body {
   font-size: 20px; /* Increased from 18px */

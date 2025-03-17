@@ -1,0 +1,62 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font-weight: 300;
+  font-size: 0.2em;
+  font: normal 20px $text-font-stack;
+}
+
+p, li {
+  font-size: 1.2em;
+}
+/**
+ * Basic typography style for ASCII
+ */
+
+pre {
+  font-family: $ascii-font-stack;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+body.work-bg {
+  color: $work-text-color;
+}
+
+figcaption
+{
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.scriptexcerpt {
+  margin: 20px;
+}
+
+.scriptexcerpt p
+{
+  font-family: monospace;
+  text-align: center;
+  margin: 0px;
+}
+
+.blockquote p
+{
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h1
+{
+  font-size: 2em;
+}
+
+.movietitle, .booktitle {
+  font-style: italic;
+}

@@ -42,8 +42,17 @@ figcaption
 .scriptexcerpt p
 {
   font-family: monospace;
+  // margin: 0px;  
+}
+
+.scriptexcerpt-center p
+{
   text-align: center;
-  margin: 0px;
+}
+
+.scriptexcerpt-left
+{
+  text-align: none;
 }
 
 .blockquote p

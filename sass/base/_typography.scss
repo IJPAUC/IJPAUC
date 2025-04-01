@@ -1,4 +1,4 @@
-/**
+/**p
  * Basic typography style for copy text
  */
 body {
@@ -36,7 +36,8 @@ figcaption
 }
 
 .scriptexcerpt {
-  margin: 20px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .scriptexcerpt p
@@ -57,8 +58,14 @@ figcaption
 
 .blockquote p
 {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.largequote
+{
+  font-size: 1.5em;
+  font-weight: 900;
 }
 
 h1
@@ -66,6 +73,53 @@ h1
   font-size: 2em;
 }
 
-.movietitle, .booktitle {
+.movietitle, .booktitle, .emphasized-text {
   font-style: italic;
+}
+
+.bold-text {
+  font-weight: 900;
+}
+
+.redacted-text {
+  // background-color: rgba(0,0,0,1);
+  // padding: 1% 2%;
+  // min-width: 50%;
+  line-height: 140%;
+  -webkit-transition: background-color 500ms ease-out;
+  -moz-transition: background-color 500ms ease-out;
+  -o-transition: background-color 500ms ease-out;
+  transition: background-color 500ms ease-out;;
+}
+
+.redacted-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+// .redacted-text:active {
+  // background-color: rgba(0,0,0,0);
+// }
+
+.redact-toggle:not(:checked) + a {
+  background-color: rgba(0,0,0,1);
+  line-height: 140%;
+  -webkit-transition: background-color 500ms ease-out;
+  -moz-transition: background-color 500ms ease-out;
+  -o-transition: background-color 500ms ease-out;
+  transition: background-color 500ms ease-out;;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.redact-toggle:checked + a {
+  background-color: rgba(0,0,0,0);
+  line-height: 140%;
+  -webkit-transition: background-color 500ms ease-out;
+  -moz-transition: background-color 500ms ease-out;
+  -o-transition: background-color 500ms ease-out;
+  transition: background-color 500ms ease-out;;
+  text-decoration: none;
+  color: #000000;
 }

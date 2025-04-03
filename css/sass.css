@@ -473,6 +473,10 @@ h1 {
   margin-bottom: 0;
 }
 
+.movietitle {
+  font-style: italic;
+}
+
 /**
  * Clear inner floats
  */

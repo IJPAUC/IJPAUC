@@ -370,7 +370,7 @@ body {
 }
 
 p, li {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 /**
@@ -467,6 +467,14 @@ h1 {
   transition: background-color 500ms ease-out;
   text-decoration: none;
   color: #000000;
+}
+
+.postal-address p {
+  margin-bottom: 0;
+}
+
+.movietitle {
+  font-style: italic;
 }
 
 /**

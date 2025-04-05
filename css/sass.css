@@ -435,19 +435,6 @@ h1 {
   font-weight: 900;
 }
 
-.redacted-text {
-  line-height: 140%;
-  -webkit-transition: background-color 500ms ease-out;
-  -moz-transition: background-color 500ms ease-out;
-  -o-transition: background-color 500ms ease-out;
-  transition: background-color 500ms ease-out;
-}
-
-.redacted-text a {
-  text-decoration: none;
-  color: #000000;
-}
-
 .redact-toggle:not(:checked) + a {
   background-color: rgb(0, 0, 0);
   line-height: 140%;
@@ -622,7 +609,7 @@ nav > .menu > li {
   overflow: visible;
 }
 
-.accordion label {
+.handle > label {
   display: block;
 }
 
@@ -644,21 +631,20 @@ nav > .menu > li {
   line-height: 1.2em;
 }
 
-.accordion label {
+.handle > label {
   color: #333;
   cursor: pointer;
   font-weight: normal;
   padding: 15px;
-  background: #e8e8e8;
+  background-color: #e8e8e8;
 }
 
-.accordion label:hover,
-.accordion label:focus {
-  background: #d8d8d8;
+.handle > label:hover,
+.handle > label:focus {
+  background-color: #d8d8d8;
 }
 
-.accordion .handle label:before {
-  font-family: "fontawesome";
+.handle > label:before {
   content: "▶";
   display: inline-block;
   margin-right: 10px;
@@ -667,7 +653,7 @@ nav > .menu > li {
   vertical-align: middle;
 }
 
-.accordion > input[type=checkbox]:checked ~ .handle label:before {
+.accordion > input[type=checkbox]:checked ~ .handle > label:before {
   content: "▼";
 }
 

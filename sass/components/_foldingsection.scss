@@ -17,7 +17,10 @@
   overflow: visible;
 }
 
-.accordion label {
+// .accordion label {
+
+// .accordion > label {
+.handle > label {
   display: block;
 }
 
@@ -45,21 +48,27 @@
   line-height: 1.2em;
 }
 
-.accordion label {
+// .accordion label {
+
+// .accordion > label {
+.handle > label {
   color: #333;
   cursor: pointer;
   font-weight: normal;
   padding: 15px;
-  background: #e8e8e8;
+  background-color: #e8e8e8;
 }
 
-.accordion label:hover,
-.accordion label:focus {
-  background: #d8d8d8;
+// .accordion label:hover,
+// .accordion label:focus {
+.handle > label:hover,
+.handle > label:focus {
+  background-color: #d8d8d8;
 }
 
-.accordion .handle label:before {
-  font-family: 'fontawesome';
+// .accordion .handle label:before {
+
+.handle > label:before {
   content: "▶";
   display: inline-block;
   margin-right: 10px;
@@ -68,7 +77,9 @@
   vertical-align: middle;
 }
 
-.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+// .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+
+.accordion > input[type="checkbox"]:checked ~ .handle > label:before {
   content: "▼";
 }
 

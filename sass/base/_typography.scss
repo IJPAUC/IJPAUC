@@ -81,26 +81,6 @@ h1
   font-weight: 900;
 }
 
-.redacted-text {
-  // background-color: rgba(0,0,0,1);
-  // padding: 1% 2%;
-  // min-width: 50%;
-  line-height: 140%;
-  -webkit-transition: background-color 500ms ease-out;
-  -moz-transition: background-color 500ms ease-out;
-  -o-transition: background-color 500ms ease-out;
-  transition: background-color 500ms ease-out;;
-}
-
-.redacted-text a {
-  text-decoration: none;
-  color: #000000;
-}
-
-// .redacted-text:active {
-  // background-color: rgba(0,0,0,0);
-// }
-
 .redact-toggle:not(:checked) + a {
   background-color: rgba(0,0,0,1);
   line-height: 140%;

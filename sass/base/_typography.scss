@@ -1,6 +1,7 @@
 /**p
  * Basic typography style for copy text
  */
+
 body {
   color: $text-color;
   font-weight: 300;
@@ -10,15 +11,6 @@ body {
 
 p, li {
   font-size: 1em;
-}
-/**
- * Basic typography style for ASCII
- */
-
-pre {
-  font-family: $ascii-font-stack;
-  font-weight: 500;
-  line-height: 100%;
 }
 
 .header a {
@@ -35,36 +27,6 @@ figcaption
   font-style: italic;
 }
 
-.scriptexcerpt {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  border: lightgrey solid 10px;
-  padding: 15px;
-  margin: 15px 0px;
-}
-
-.scriptexcerpt p
-{
-  font-family: "Courier Prime", monospace;
-  // margin: 0px;  
-}
-
-.scriptexcerpt-center p
-{
-  text-align: center;
-}
-
-.scriptexcerpt-left
-{
-  text-align: none;
-}
-
-.blockquote p
-{
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-}
-
 .largequote
 {
   // font-size: 1.5em;
@@ -76,41 +38,6 @@ h1
   font-size: 2em;
 }
 
-.movietitle, .booktitle, .emphasized-text {
-  font-style: italic;
-}
-
 .bold-text {
   font-weight: 900;
-}
-
-.redact-toggle:not(:checked) + a {
-  background-color: rgba(0,0,0,1);
-  line-height: 140%;
-  -webkit-transition: background-color 500ms ease-out;
-  -moz-transition: background-color 500ms ease-out;
-  -o-transition: background-color 500ms ease-out;
-  transition: background-color 500ms ease-out;;
-  text-decoration: none;
-  color: #000000;
-}
-
-
-.redact-toggle:checked + a {
-  background-color: rgba(0,0,0,0);
-  line-height: 140%;
-  -webkit-transition: background-color 500ms ease-out;
-  -moz-transition: background-color 500ms ease-out;
-  -o-transition: background-color 500ms ease-out;
-  transition: background-color 500ms ease-out;;
-  text-decoration: none;
-  color: #000000;
-}
-
-.postal-address p {
-  margin-bottom: 0;
-}
-
-.movietitle {
-  font-style: italic;
 }

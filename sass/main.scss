@@ -22,12 +22,16 @@
   'layout/container',
   'layout/footer',
   'layout/header',
-  'layout/letter';
+  'layout/letter',
+  'layout/script',
+  'layout/transcript';
+;
 
 // 5. Components
 @import
   'components/foldingsection',
   'components/modal',
+  'components/movietitle',
   'components/nav',
   'components/video_resize',
   'components/video_container';

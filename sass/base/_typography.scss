@@ -38,11 +38,14 @@ figcaption
 .scriptexcerpt {
   padding-left: 1.5em;
   padding-right: 1.5em;
+  border: lightgrey solid 10px;
+  padding: 15px;
+  margin: 15px 0px;
 }
 
 .scriptexcerpt p
 {
-  font-family: monospace;
+  font-family: "Courier Prime", monospace;
   // margin: 0px;  
 }
 
@@ -64,8 +67,8 @@ figcaption
 
 .largequote
 {
-  font-size: 1.5em;
-  font-weight: 900;
+  // font-size: 1.5em;
+  // font-weight: 900;
 }
 
 h1

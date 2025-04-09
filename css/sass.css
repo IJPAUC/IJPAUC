@@ -399,10 +399,13 @@ figcaption {
 .scriptexcerpt {
   padding-left: 1.5em;
   padding-right: 1.5em;
+  border: lightgrey solid 10px;
+  padding: 15px;
+  margin: 15px 0px;
 }
 
 .scriptexcerpt p {
-  font-family: monospace;
+  font-family: "Courier Prime", monospace;
 }
 
 .scriptexcerpt-center p {
@@ -416,11 +419,6 @@ figcaption {
 .blockquote p {
   padding-left: 1.5em;
   padding-right: 1.5em;
-}
-
-.largequote {
-  font-size: 1.5em;
-  font-weight: 900;
 }
 
 h1 {
@@ -591,8 +589,32 @@ nav > .menu > li {
 }
 
 .letter {
-  border: black solid 1px;
+  border: lightgrey double 10px;
   padding: 15px;
+  margin: 15px 0px;
+}
+
+.script {
+  border: lightgrey solid 10px;
+  padding: 15px;
+  margin: 15px 0px;
+}
+
+.transcript {
+  border: black dashed 2px;
+  margin-bottom: 1em;
+  padding-top: 1em;
+}
+
+.transcript p {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  text-indent: -50px;
+  margin-left: 50px;
+}
+
+.transcript-name {
+  font-weight: 900;
 }
 
 /*
@@ -725,6 +747,10 @@ input[type=checkbox] {
   position: absolute;
   top: 16px;
   right: 26px;
+}
+
+.movietitle {
+  font-style: italic;
 }
 
 /* menu - navbar */

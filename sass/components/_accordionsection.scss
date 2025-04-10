@@ -11,15 +11,11 @@
   height: 0;
   transition: height 0.3s ease;
 }
-
 .accordion > input[type="checkbox"]:checked ~ .accordion-content {
   height: auto;
   overflow: visible;
 }
 
-// .accordion label {
-
-// .accordion > label {
 .handle > label {
   display: block;
 }
@@ -27,14 +23,13 @@
 /*
  Styling
 */
-// body {
-//   font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
-//   color: #333;
-//   font-weight: 300;
-// }
 
 .accordion {
   margin-bottom: 1em;
+}
+
+.accordion-content {
+  padding-top: 1em;
 }
 
 .accordion > input[type="checkbox"]:checked ~ .content {
@@ -48,9 +43,6 @@
   line-height: 1.2em;
 }
 
-// .accordion label {
-
-// .accordion > label {
 .handle > label {
   color: #333;
   cursor: pointer;
@@ -59,14 +51,10 @@
   background-color: #e8e8e8;
 }
 
-// .accordion label:hover,
-// .accordion label:focus {
 .handle > label:hover,
 .handle > label:focus {
   background-color: #d8d8d8;
 }
-
-// .accordion .handle label:before {
 
 .handle > label:before {
   content: "▶";
@@ -77,44 +65,6 @@
   vertical-align: middle;
 }
 
-// .accordion > input[type="checkbox"]:checked ~ .handle label:before {
-
 .accordion > input[type="checkbox"]:checked ~ .handle > label:before {
   content: "▼";
 }
-
-
-/*
- Demo purposes only
-*/
-// *,
-// *:before,
-// *:after {
-//   box-sizing: border-box;
-// }
-
-// body {
-//   padding: 40px;
-// }
-
-// a {
-//   color: #06c;
-// }
-
-// p {
-//   margin: 0 0 1em;
-// }
-
-// h1 {
-//   margin: 0 0 1.5em;
-//   font-weight: 600;
-//   font-size: 1.5em;
-// }
-
-// .accordion {
-//   max-width: 65em;
-// }
-
-// .accordion p:last-child {
-//   margin-bottom: 0;
-// }
